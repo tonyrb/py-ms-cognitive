@@ -61,7 +61,7 @@ Remember to set the `API_KEY` as your own.
 ```py
 >>> from py_ms_cognitive import PyMsCognitiveImageSearch
 >>> search_term = "puppies"
->>> search_service = PyMsCognitiveWebSearch('API_KEY', search_term)
+>>> search_service = PyMsCognitiveImageSearch('API_KEY', search_term)
 >>> first_fifty_result = search_service.search(limit=50, format='json') #1-50
 >>> second_fifty_result = search_service.search(limit=50, format='json') #51-100
 
